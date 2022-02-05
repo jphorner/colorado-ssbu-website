@@ -1,0 +1,67 @@
+.event {
+  display: flex;
+  flex-direction: column;
+  min-width: 20rem;
+  min-height: 30rem;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: .5rem;
+  line-height: 1.2rem;
+}
+
+.event-name {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #3801ad;
+}
+
+.schedule {
+  margin-bottom: 1rem;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.other-brackets {
+  margin-top: .5rem;
+}
+
+.over-eighteen {
+  margin-top: 1rem;
+  color: #ef980b;
+}
+
+.over-twenty-one {
+  margin-top: 1rem;
+  color: #c1210f;
+}
+
+.registration-info {
+  margin-top: 1rem;
+}
+
+.no-reg {
+  margin-top: 1rem;
+}
+
+.additional-info {
+  margin-top: 1rem;
+  padding: .5rem .3rem .5rem .3rem;
+  border: 1px solid #6A47EC;
+}
+
+.centered {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
